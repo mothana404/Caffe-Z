@@ -1,14 +1,12 @@
 // EX1
 let theName = window.prompt("Enter you name", "");
-let gender;
 
 while (gender != "male" || gender != "female"){
-    gender = window.prompt("what is your gender", "");
-    let check = gender.toLocaleLowerCase();
-    if (check === "male"){
+    var gender = window.prompt("what is your gender", "");
+    if (gender.toLocaleLowerCase() === "male"){
         window.alert(`Welcome Mr ${theName}`);
         break;
-    } else if (check === "female") {
+    } else if (gender.toLocaleLowerCase() === "female") {
         window.alert(`Welcome Ms ${theName}`);
         break;
     }
