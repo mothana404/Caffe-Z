@@ -21,3 +21,4 @@ let userAr = [theName, gender, hotCold, drink];
 for (let i = 0; i < userAr.length; i++){
     console.log(userAr[i]);
 }
+//kinbkjbkbikikvkv
