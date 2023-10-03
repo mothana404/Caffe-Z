@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    row-gap: 5px;
+    font-size: 18px;
+    background-color: white;
+    padding: 25px;
+}
+
+div#container {
+    width: 30%;
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px -5px orangered;
+}
+
+input#\31 {
+    width: 25px;
+    height: 25px;
+}
+
+div#speDiv {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 25px;
+    background-color: lightskyblue;
+}
